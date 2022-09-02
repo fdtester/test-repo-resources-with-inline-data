@@ -2,7 +2,6 @@
   "name": "test-package-with-inline-data",
   "resources": [
     { "name": "resource-with-inline-data",
-      "path": "https://raw.githubusercontent.com/fdtester/test-repo-with-datapackage-yaml/master/data/capitals.csv",
       "schema": {
         "fields": [
           {
