@@ -1,0 +1,26 @@
+{
+  "name": "test-package-with-inline-data",
+  "resources": [
+    { "name": "resource-with-inline-data",
+      "path": "https://raw.githubusercontent.com/fdtester/test-repo-with-datapackage-yaml/master/data/capitals.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "integer"
+          },
+          {
+            "name": "cid",
+            "type": "string"
+          }
+        ]
+      },
+     "data": {
+        "resource-name-data": [
+          {"id": 1, "name": "Liam"},
+          {"id": 1, "name": "Amelia"}
+        ]
+      }
+    }    
+  ]
+}
