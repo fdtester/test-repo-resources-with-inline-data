@@ -1,31 +1,35 @@
 {
-   "name":"test-package-with-inline-data",
    "resources":[
       {
-         "name":"resource-with-inline-data",
+         "name":"name",
+         "data":[
+            [
+               "John",
+               "22"
+            ],
+            [
+               "Alex",
+               "33"
+            ],
+            [
+               "Paul",
+               "44"
+            ]
+         ],
          "schema":{
             "fields":[
                {
-                  "name":"id",
-                  "type":"integer"
+                  "name":"name",
+                  "type":"string"
                },
                {
-                  "name":"cid",
-                  "type":"string"
+                  "name":"age",
+                  "type":"integer"
                }
             ]
          },
-         "data":{
-            "resource-name-data":[
-               {
-                  "id":1,
-                  "name":"Liama"
-               },
-               {
-                  "id":1,
-                  "name":"Amelia"
-               }
-            ]
+         "dialect":{
+            "header":false
          }
       }
    ]
