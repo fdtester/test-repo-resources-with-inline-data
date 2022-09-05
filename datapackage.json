@@ -1,25 +1,32 @@
 {
-  "name": "test-package-with-inline-data",
-  "resources": [
-    { "name": "resource-with-inline-data",
-      "schema": {
-        "fields": [
-          {
-            "name": "id",
-            "type": "integer"
-          },
-          {
-            "name": "cid",
-            "type": "string"
-          }
-        ]
-      },
-     "data": {
-        "resource-name-data": [
-          {"id": 1, "name": "Liama"},
-          {"id": 1, "name": "Amelia"}
-        ]
+   "name":"test-package-with-inline-data",
+   "resources":[
+      {
+         "name":"resource-with-inline-data",
+         "schema":{
+            "fields":[
+               {
+                  "name":"id",
+                  "type":"integer"
+               },
+               {
+                  "name":"cid",
+                  "type":"string"
+               }
+            ]
+         },
+         "data":{
+            "resource-name-data":[
+               {
+                  "id":1,
+                  "name":"Liama"
+               },
+               {
+                  "id":1,
+                  "name":"Amelia"
+               }
+            ]
+         }
       }
-    }    
-  ]
+   ]
 }
