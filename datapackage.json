@@ -1,14 +1,33 @@
-    descriptor = {
-        "resources": [
-            {
-                "name": "resource-with-inline-data",
-                "data": [["John", "22"], ["Alex", "33"], ["Paul", "44"]],
-                "schema": {
-                    "fields": [
-                        {"name": "name", "type": "string"},
-                        {"name": "age", "type": "integer"},
-                    ]
-                }
-            }
-        ]
-    }
+{
+   "resources":[
+      {
+         "name":"resource-with-inline-data",
+         "data":[
+            [
+               "John",
+               "22"
+            ],
+            [
+               "Alex",
+               "33"
+            ],
+            [
+               "Paul",
+               "44"
+            ]
+         ],
+         "schema":{
+            "fields":[
+               {
+                  "name":"name",
+                  "type":"string"
+               },
+               {
+                  "name":"age",
+                  "type":"integer"
+               }
+            ]
+         }
+      }
+   ]
+}
